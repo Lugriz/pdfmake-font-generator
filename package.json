@@ -1,6 +1,6 @@
 {
   "name": "pdfmake-font-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates fonts to use in the pdfmake package",
   "scripts": {
     "test": "jest"
@@ -15,6 +15,11 @@
   "bin": {
     "pdfmakefg": "src/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lugriz/pdfmake-font-generator.git"
+  },
+  "homepage": "https://github.com/Lugriz/pdfmake-font-generator",
   "bugs": {
     "email": "insomniocode@gmail.com",
     "url": "https://github.com/Lugriz/pdfmake-font-generator/issues"
