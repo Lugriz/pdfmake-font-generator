@@ -1,0 +1,31 @@
+{
+  "name": "pdfmake-font-generator",
+  "version": "1.0.0",
+  "description": "Generates fonts to use in the pdfmake package",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "pdfmake",
+    "pdfmake fonts",
+    "font generator"
+  ],
+  "author": "Insomniocode <insomniocode@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "pdfmakefg": "src/cli.js"
+  },
+  "bugs": {
+    "email": "insomniocode@gmail.com",
+    "url": "https://github.com/Lugriz/pdfmake-font-generator/issues"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.js$"
+  }
+}
